@@ -9,6 +9,7 @@ type StudentParms = {
 function Student(props : StudentParms) {
   return(
     <>
+  
     <h2>your name is {props.name} </h2> 
     <h2>your age is {props.age} </h2> 
     <h2>your college is {props.college} </h2> 
