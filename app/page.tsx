@@ -1,19 +1,25 @@
 import Image from "next/image";
 
-type StudentParms = {
-  name : string ;
-  age : number; 
-  college : string;
-  level : number;
+type AgeParams = {
+  age : number;
 }
-function Student(props : StudentParms) {
-  return(
+
+function Age (props : AgeParams) {
+  return (
     <>
-  
-    <h2>your name is {props.name} </h2> 
-    <h2>your age is {props.age} </h2> 
-    <h2>your college is {props.college} </h2> 
-    <h2>your level is {props.level} </h2> 
+    <h2>your age is {props.age}</h2>
+    </>
+  )
+}
+
+type NameParams = {
+  name : string;
+}
+
+function Name(props : NameParams){
+  return (
+    <>
+    <h2>your name is {props.name}</h2>
     </>
   )
 }
@@ -21,12 +27,14 @@ function Student(props : StudentParms) {
 function Home() {
   return (
     <>
-    <h1>
-      Student Information 
-    </h1>
-
-    <Student name="user" age={20} college="Computer Science" level={1} /> 
+    <div >
+      <h1>hello .... </h1>
+      <Name name="bavly wagih samir assad atea" />
+      <Age age={15} />
+    </div>
     </>
+
   );
 }
+
 export default Home;
