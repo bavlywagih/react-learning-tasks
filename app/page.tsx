@@ -1,19 +1,17 @@
 import Image from "next/image";
-import Header from "@/components/Header"
-import Profile from "@/components/Profile"
-import Content from "@/components/Content";
-import Footer from "@/components/footer";
+import Welcome from "@/components/Welcome" ;
+import Login from "@/components/Login" ;
 
 
 
 
 function Home() {
+
+  const Islogin = true ;
+
   return (
-    <>
-    <Header title="My React Website" />
-    <Profile name="bavly" age={18} job="fullstack" />
-    <Content course="React" level="Beginner" />
-    <Footer year={2026} />
+    <>  
+      {Islogin ? <Welcome /> : <Login />}
     </>
 
   );
