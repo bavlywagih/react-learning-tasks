@@ -11,8 +11,8 @@ A collection of tasks I build while learning React and TypeScript.
 | Task 3| Component | [task-3-components](https://github.com/bavlywagih/react-learning-tasks/tree/task-3-components) | ✅ Completed |
 | Task 4 | task-4-components-props | [task-4-components](https://github.com/bavlywagih/react-learning-tasks/tree/task-4-components-props) | ✅ Completed |
 | Task 5 | task-5-conditional-components | [task-5-conditional-components](https://github.com/bavlywagih/react-learning-tasks/tree/task-5-conditional-components) | ✅ Completed |
-
-| Task 6 | useState | task-6-usestate | ⬜ Upcoming |
+| Task 6 | task-6-styling-jsx | [task-6-styling-jsx](https://github.com/bavlywagih/react-learning-tasks/tree/task-6-styling-jsx) | ✅ Completed |
+<!-- | Task 6 | useState | task-6-usestate | ⬜ Upcoming | -->
 | Task 7 | useEffect | task-7-useeffect | ⬜ Upcoming |
 | Task 8 | API Fetching | task-8-api | ⬜ Upcoming |
 

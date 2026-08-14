@@ -1,17 +1,23 @@
-import Image from "next/image";
-import Welcome from "@/components/Welcome" ;
-import Login from "@/components/Login" ;
+import Profile from "@/components/Profile";
 
 
-
+// 
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     margin: auto auto;
+//     width: 27rem;
+//     height: 27rem;
+//     border: black 1px solid;
+//     align-items: center;
+//     border-radius: 1rem;
 
 function Home() {
-
-  const Islogin = true ;
-
   return (
     <>  
-      {Islogin ? <Welcome /> : <Login />}
+      <div style={{display:"flex",flexDirection:"column",justifyContent:"center",margin:"auto auto",width:"27rem",height:"27rem",border:"black 1px solid",alignItems:"center",borderRadius:"1rem"}}>
+        <Profile />
+      </div>
     </>
 
   );
