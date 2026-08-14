@@ -1,9 +1,18 @@
-function Profile () {
+type ProfileParams = {
+    name : string ;
+    age  : number ;
+    job  : string ;
+}
+
+function Profile (props:ProfileParams) {
     return (
+        <>
         <h2>
-            My name is Bavly <br />
-            I am learning React
+            My name is {props.name}  <br />
+            Iam {props.age}  years old  <br />
+            I am learning {props.job}
         </h2>
+        </>
     )
 }
 

@@ -2,6 +2,7 @@ import Image from "next/image";
 import Header from "@/components/Header"
 import Profile from "@/components/Profile"
 import Content from "@/components/Content";
+import Footer from "@/components/footer";
 
 
 
@@ -9,10 +10,10 @@ import Content from "@/components/Content";
 function Home() {
   return (
     <>
-    <Header />
-    <Profile />
-    <Content />
-    
+    <Header title="My React Website" />
+    <Profile name="bavly" age={18} job="fullstack" />
+    <Content course="React" level="Beginner" />
+    <Footer year={2026} />
     </>
 
   );

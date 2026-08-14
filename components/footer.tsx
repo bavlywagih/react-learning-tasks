@@ -1,9 +1,13 @@
-function footer(){
+type FooterParams = {
+    year : number ;
+}
+
+function Footer(props : FooterParams){
     return (
         <h2>
-            This is my Footer
+            all rights reserved © {props.year}
         </h2>
     )
 }
 
-export default footer;
+export default Footer;

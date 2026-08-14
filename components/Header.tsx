@@ -1,9 +1,11 @@
 
+type HeaderParams = {
+    title : string;
+}
 
-
-function Header () {
+function Header (props:HeaderParams) {
     return (
-    <h1>Welcome to my website</h1>
+    <h1>Welcome to {props.title}</h1>
     )
 }
 
