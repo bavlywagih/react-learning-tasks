@@ -1,19 +1,19 @@
 # React Learning Tasks 🚀
 
-This repository documents my journey learning React and TypeScript.
+A collection of tasks I build while learning React and TypeScript.
 
-I'm building small tasks and projects to practice what I learn.
+## 📚 Learning Progress
 
-## 📚 Tasks
-
-- ✅ [Task 1 — Props Basics](https://github.com/bavlywagih/react-learning-tasks/commit/709f6c87e197648ddb92e2b6e58522af30b433d4)
-- ✅ [Task 2 — Student Card](https://github.com/bavlywagih/react-learning-tasks/commit/263968dd408f2d6b6643f10d2dd1ed641b663057)
-- ⬜ Task 3 — Component Inside Component
-- ⬜ Task 4 — Multiple Components
-- ⬜ Task 5 — Events
-- ⬜ Task 6 — useState
-- ⬜ Task 7 — useEffect
-- ⬜ Task 8 — API Fetching
+| Task | Topic | Branch | Status |
+|---|---|---|---|
+| Task 1 | Props Basics | [task-1-props](https://github.com/bavlywagih/react-learning-tasks/tree/task-1-props) | ✅ Completed |
+| Task 2 | Student Card | [task-2-student](https://github.com/bavlywagih/react-learning-tasks/tree/task-2-student) | ✅ Completed |
+| Task 3| Component | [task-3-components](https://github.com/bavlywagih/react-learning-tasks/tree/task-3-components) | ✅ Completed |
+| Task 4 | Multiple Components | task-4-components | ⬜ Upcoming |
+| Task 5 | Events | task-5-events | ⬜ Upcoming |
+| Task 6 | useState | task-6-usestate | ⬜ Upcoming |
+| Task 7 | useEffect | task-7-useeffect | ⬜ Upcoming |
+| Task 8 | API Fetching | task-8-api | ⬜ Upcoming |
 
 ## 🛠️ Technologies
 
@@ -25,4 +25,4 @@ I'm building small tasks and projects to practice what I learn.
 
 ## 🎯 Goal
 
-My goal is to improve my React and TypeScript skills by building projects and practicing every concept I learn.
+Improve my React and TypeScript skills by building practical tasks and documenting my learning progress.
