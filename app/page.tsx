@@ -4,9 +4,6 @@ import Profile from "@/components/Profile"
 import Content from "@/components/Content";
 import Footer from "@/components/footer";
 
-
-
-
 function Home() {
   return (
     <>
