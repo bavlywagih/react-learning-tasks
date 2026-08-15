@@ -8,7 +8,7 @@ function Navbar() {
             <span> | </span>
             <Link href="/about" >About</Link>
             <span> | </span>
-            <Link href="/contact" >Contact</Link>
+            <Link href="/counter" >Counter</Link>
         </div>
         </>
     )
