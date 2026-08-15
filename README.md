@@ -12,7 +12,7 @@ A collection of tasks I build while learning React and TypeScript.
 | Task 4 | task-4-components-props | [task-4-components](https://github.com/bavlywagih/react-learning-tasks/tree/task-4-components-props) | ✅ Completed |
 | Task 5 | task-5-conditional-components | [task-5-conditional-components](https://github.com/bavlywagih/react-learning-tasks/tree/task-5-conditional-components) | ✅ Completed |
 | Task 6 | task-6-styling-jsx | [task-6-styling-jsx](https://github.com/bavlywagih/react-learning-tasks/tree/task-6-styling-jsx) | ✅ Completed |
-| Task 7 | task-7-routing-nextjs | [task-6-styling-jsx](https://github.com/bavlywagih/react-learning-tasks/tree/task-7-routing-nextjs) | ✅ Completed |
+| Task 7 | task-7-routing-nextjs | [task-7-routing-nextjs](https://github.com/bavlywagih/react-learning-tasks/tree/task-7-routing-nextjs) | ✅ Completed |
 
 
 ## 🛠️ Technologies
