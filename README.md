@@ -14,6 +14,7 @@ A collection of tasks I build while learning React and TypeScript.
 | Task 6 | task-6-styling-jsx | [task-6-styling-jsx](https://github.com/bavlywagih/react-learning-tasks/tree/task-6-styling-jsx) | ✅ Completed |
 | Task 7 | task-7-routing-nextjs | [task-7-routing-nextjs](https://github.com/bavlywagih/react-learning-tasks/tree/task-7-routing-nextjs) | ✅ Completed |
 | Task 8 | Task-8-Hooks-useState | [Task-8-Hooks-useState](https://github.com/bavlywagih/react-learning-tasks/tree/task-8-Hooks-useState) | ✅ Completed |
+| Task 9 | task-9-final-practice | [task-9-final-practice](https://github.com/bavlywagih/react-learning-tasks/tree/task-9-final-practice) | ✅ Completed |
 
 
 
