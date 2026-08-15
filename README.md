@@ -1,29 +1,79 @@
-## Task 8 — Hooks: useState
+# Final React / Next.js Practice Project
 
-### Description
+## Description
 
-In this task, I practiced using the React `useState` Hook to manage and update component state.
+A practical project that combines the main React and Next.js concepts practiced in the previous tasks.
 
-### What I practiced
+The project is a simple personal portfolio website for Bavly.
 
-- Using `useState` to create and manage state.
-- Initializing a state value with `0`.
-- Updating state using a state setter function.
-- Handling button clicks with `onClick`.
-- Creating functions to increase and decrease the counter.
-- Understanding how state changes cause the component to re-render.
-- Using `"use client"` in Next.js for components that use `useState`.
+## Concepts Practiced
 
-### Task Features
+- React Components
+- Props
+- TypeScript Props
+- Conditional Rendering
+- Ternary Operator
+- JSX Styling
+- CSS Modules
+- Next.js Routing
+- React Hooks
+- useState
+- Event Handling with onClick
+- Component Organization
 
-- Counter starts at `0`.
-- `+` button increases the counter by `1`.
-- `-` button decreases the counter by `1`.
-- Current counter value is displayed on the page.
+## Features
 
-### Technologies
+### Profile
 
-- Next.js
-- React
-- TypeScript
-- React Hooks (`useState`)
+The Profile component receives user information through Props:
+
+- Name
+- Age
+- Job
+
+### Conditional Rendering
+
+The application displays either the Welcome or Login component depending on the login state.
+
+### Counter
+
+The Counter component uses `useState` to manage the counter value and `onClick` to increase or decrease it.
+
+### Routing
+
+The application contains multiple pages:
+
+- `/` — Home
+- `/about` — About
+- `/contact` — Contact
+
+### Styling
+
+The project uses CSS Modules to organize component-specific styles.
+
+## Project Structure
+
+```text
+app/
+├── page.tsx
+├── about/
+│   └── page.tsx
+└── contact/
+    └── page.tsx
+
+components/
+├── Navbar/
+│   ├── Navbar.tsx
+│   └── Navbar.module.css
+├── Profile/
+│   ├── Profile.tsx
+│   └── Profile.module.css
+├── Welcome/
+│   └── Welcome.tsx
+├── Login/
+│   └── Login.tsx
+├── Counter/
+│   ├── Counter.tsx
+│   └── Counter.module.css
+└── Footer/
+    └── Footer.tsx

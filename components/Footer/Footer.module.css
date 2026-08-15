@@ -1,0 +1,42 @@
+.footer {
+    background-color: #1e293b;
+    color: #f8fafc;
+    padding: 2rem 1rem 1rem;
+    margin-top: auto;
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+  }
+  
+  .info h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.2rem;
+    color: #38bdf8;
+  }
+  
+  .info p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #94a3b8;
+    line-height: 1.5;
+  }
+  
+  .copyright {
+    border-top: 1px solid #334155;
+    width: 100%;
+    padding-top: 1rem;
+    font-size: 0.875rem;
+    color: #64748b;
+  }
+  
+  .copyright p {
+    margin: 0;
+  }

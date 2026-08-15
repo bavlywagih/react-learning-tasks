@@ -1,10 +1,11 @@
-import Navbar from "@/components/navbar";
+import Login from "@/components/Login/Login";
+import Welcome from "@/components/Welcome/Welcome";
 
 function Home() {
+  const IsLogin = true ;
   return (
     <>  
-      <Navbar />
-      <h1>welcome to my website</h1>
+      {IsLogin ? <Welcome /> : <Login />}
     </>
 
   );
